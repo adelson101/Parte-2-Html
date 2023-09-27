@@ -28,7 +28,6 @@ nav {
     align-items: center;
     margin-left: 5em;
     gap: 2em;
-    flex-grow: 1;
 }
 
 nav > a {
@@ -49,8 +48,8 @@ main {
     align-items: start;
     flex-wrap: wrap;
     gap: 3em;
-    flex-grow: 4;
     margin-top: 2em;
+    height: 100%;
 }
 
 a {
@@ -97,12 +96,29 @@ h1 > strong {
     gap: 2em;
 }
 
+.buttons > h3 {
+    font-family: var(--font1);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
 .buttons > a {
     border: 2px solid var(--cor3);
     border-radius: 8px;
     padding: 1em 0px;
     width: 208px;
+
     text-align: center;
+    font-family: var(--font2);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    font-style: normal;
+    color: var(--cor2);
 }
 
 /* Footer */
@@ -111,8 +127,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-grow: 1;
     background-color: var(--cor3);
     color: var(--cor1);
-    height: 10px;
+    height: 50px;
+    bottom: 0px;
 }
