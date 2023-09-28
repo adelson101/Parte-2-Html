@@ -4,6 +4,7 @@
     --cor1: black;
     --cor2: white;
     --cor3:  #22D4FD;
+    --cor4: #272727;
     --font1: 'Krona One', sans-serif;
     --font2: 'Montserrat', sans-serif;  
     margin: 0px;
@@ -15,17 +16,18 @@ body {
     flex-direction: column;
     background-color: var(--cor1);
     color: var(--cor2);
+    box-sizing: border-box;
 }
 
 /* header */
 
 header {
-    height: 60px;
+    padding: 2% 0 0 20%;
+}
+
+nav {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 61px;
-    margin-bottom: 141px;
+    gap: 80px;
 }
 
 nav > a {
@@ -41,13 +43,13 @@ nav > a {
  /* Corpo */
 
 main {
+    margin: 10% 15%;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: start;
     flex-wrap: wrap;
     gap: 3em;
-    height: 100%;
     margin-bottom: 6em;
 }
 
@@ -123,6 +125,10 @@ h1 > strong {
     justify-content: center;
     align-items: center;
     gap: 1em;
+}
+
+.buttons > a:hover {
+    background-color: var(--cor4);
 }
 
 /* Footer */
