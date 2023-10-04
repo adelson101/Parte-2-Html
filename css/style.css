@@ -186,6 +186,16 @@ footer > p {
         padding: 3em 1em 0px 1em;
     }
 
+    nav {
+        gap: 1em;
+        justify-content: center;
+        align-items: start;
+    }
+
+    nav>a {
+        text-align: center;
+    }
+
     .apresentacao{
         margin: 10% 1em;
         box-sizing: border-box;
